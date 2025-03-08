@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@utility container {
+    center: true,
+    @variant DEFAULT {
+        padding-inline: 2.5rem;
+      }
+
+    @variant sm {
+      padding-inline: 2rem;
+    }
+    
+    @variant lg {
+      padding-inline: 4rem;
+    }
+    
+    @variant xl {
+      padding-inline: 2rem;
+    }
+
+    @variant 2xl {
+        padding-inline: 6rem;
+      }
+  }
+  
+  @theme {
+    --color-bgL: #314254;
+    --color-bgD: #0E2338;
+    --color-hbg: #0E2338;
+    --color-gray: #1B314C;
+    --color-blueB: #3B82F6;
+    --color-nav: #0B233E;
+  }
